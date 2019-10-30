@@ -6,43 +6,43 @@ configure_sudoers: yes
 configure_terminal: yes
 configure_osx: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/trunkrat/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+#dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
 dotfiles_files:
   - .bash_profile
   - .gitignore
   - .inputrc
   - .osx
-  - .vimrc
+ # - .vimrc
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - doxygen
-  - gettext
-  - gifsicle
+  #- autoconf
+  #- bash-completion
+  #- doxygen
+  #- gettext
+  #- gifsicle
   - git
-  - go
-  - gpg
-  - hub
-  - httpie
-  - iperf
-  - libevent
+  #- go
+  #- gpg
+  #- hub
+  #- httpie
+  #- iperf
+  #- libevent
   - sqlite
-  - mcrypt
-  - nmap
-  - node
-  - nvm
-  - php
+  #- mcrypt
+  #- nmap
+  #- node
+  #- nvm
+  #- php
   - ssh-copy-id
-  - cowsay
-  - readline
+  #- cowsay
+  #- readline
   - openssl
-  - pv
+  #- pv
   - wget
-  - wrk
+  #- wrk
 
 homebrew_taps:
   - homebrew/core
@@ -50,20 +50,20 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
+  #- chromedriver
   - docker
-  - dropbox
+  #- dropbox
   - firefox
   - google-chrome
-  - handbrake
-  - licecap
-  - macvim
-  - sequel-pro
-  - skitch
+  #- handbrake
+  #- licecap
+  #- macvim
+  #- sequel-pro
+  #- skitch
   - slack
-  - sublime-text
-  - transmit
-  - vagrant
+  #- sublime-text
+  #- transmit
+  #- vagrant
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
